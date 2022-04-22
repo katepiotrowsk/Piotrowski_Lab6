@@ -22,7 +22,7 @@ private var message: Message = Message()
 class MainActivity : AppCompatActivity(), MediaPlayer.OnPreparedListener, MediaPlayer.OnDrmInfoListener,
     SurfaceHolder.Callback {
 
-    private val videoStr = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    private val videoStr = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
     private lateinit var radioToggle: Button
     private lateinit var videoView: VideoView
     private lateinit var videoToggle: Button
