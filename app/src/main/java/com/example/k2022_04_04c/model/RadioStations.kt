@@ -8,9 +8,9 @@ var stations: MutableList<RadioStation> = mutableListOf(RadioStation("name", "ht
 class RadioStations() {
 
     init {
-        stations.add(RadioStation("Wisconsin public radio  ", "https://wpr-ice.streamguys1.com/wpr-music-mp3-96"))
-        stations.add(RadioStation("Maine NPR  ", "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEAFM.mp3"))
-        stations.add(RadioStation("BBC Radio 1", "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk"))
+        stations.add(RadioStation("Radio Caroline", "http://sc6.radiocaroline.net:8040/mp3"))
+        stations.add(RadioStation("Harlem 105 Germany", "http://stream.haarlem105.nl:8000/haarlem105low.mp3"))
+        stations.add(RadioStation("KMOJ", "https://kmojfm.streamguys1.com/live-mp3"))
     }
 
     public fun getStations() : MutableList<RadioStation> {
